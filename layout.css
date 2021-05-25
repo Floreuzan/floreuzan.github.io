@@ -1,0 +1,296 @@
+html.js #container { display: none; }
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+	border:0;
+	font:inherit;
+	font-size:100%;
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+body {
+	font-family: 'Rokkitt', helvetica, arial, sans-serif; 
+	font-weight: 400;
+	font-size: 16px; color: #222;
+	overflow-y: scroll;
+}
+
+body > div {
+	max-width: 800px; 
+	margin: auto;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+}
+
+.name h1 {
+	font-size: 3.5em;
+	margin-top:7px;
+	margin-left:35px;
+}
+
+h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-weight:400;
+}
+
+.name h2 {
+	font-size: 1.5em;
+	font-style: italic;
+	margin-top:7px;
+	margin-left:35px;
+	margin-bottom:15px;
+}
+
+
+.mainArea {
+	padding: 0 40px;
+}
+
+.name {
+	float: left;
+}
+
+.contactDetails {
+	float: right;
+	margin-top:20px;
+	margin-right:40px;
+	font-size: 1.1em;
+}
+
+.contactDetails ul {
+	list-style-type: none;
+	margin-top: 2px;
+}
+
+.contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+
+.contactDetails ul li a, a[href^=tel] {
+	color: #444; 
+	text-decoration: none;
+}
+
+.contactDetails ul li a:hover { 
+	color: #3064b1;
+}
+
+
+.clear {clear: both;}
+
+p, article li {
+	font-size: 0.9em;
+	line-height: 1.2em;
+	color: #444;
+}
+
+p {
+	margin-bottom: 13px;
+}
+
+article li {
+	margin-bottom: 5px;
+}
+
+.sectionContent article p {
+	padding-left: 5px;
+}
+
+article ul {
+	padding-left: 2em;
+	text-indent: -1em;
+	list-style-type: none;
+}
+
+article ul li:before{
+	content: '\00b0';
+	display: block;
+	float: left;
+	width: 1em;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.sectionContent {
+	margin-left:15px;
+}
+
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #3064b1;
+	border-bottom: 2px solid #3064b1;
+}
+
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-weight:600;
+	font-size: 1em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.85em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+
+.keySkills {
+	list-style-type: circle;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	color: #444;
+}
+
+.keySkills li {
+	margin-bottom: 3px;
+}
+
+.keySkills li span {
+	font-weight: 600;
+}
+
+.projects {
+	list-style-type: circle;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	color: #444;
+}
+
+.projects li {
+	margin-bottom: 3px;
+}
+
+.projects li span {
+	font-weight: 600;
+}
+
+.languages {
+	list-style-type: circle;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	color: #444;
+}
+
+.languages li {
+	margin-bottom: 3px;
+}
+
+.languages li span {
+	font-weight: 600;
+}
+
+#professional-resume section {
+	padding: 10px 0 0;
+}
+
+#professional-wrapper > img {
+	max-width:100%;
+	max-height: 400px;
+	margin: auto;
+	display: block;
+	padding-bottom: 10px;
+}
+
+#professional-resume {
+	border: 2px inset;
+	margin: auto;
+	padding: 10px;
+	width: 100%;
+}
+
+#professional-wrapper {
+	display: block;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 750px) {
+	#professional-resume {
+		margin: 10px auto;
+		min-width: 280px;
+	}
+	
+	.name, .contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+	}
+	
+	.sectionTitle {
+		margin-left: -2px;
+		font-size: 1.25em;
+	}
+
+	.mainDetails {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 15px 0 0;
+	}
+	
+	.mainArea {
+		padding: 0 25px;
+	}
+
+	.name h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+	}
+} 
+
+@media screen and (max-width: 601px) {
+	html, body {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 401px) {
+	html, body {
+		font-size: 12px;
+	}
+} 
+
+@media print {
+	html, body {
+		font-size: 14px;
+	}
+
+	#professional-resume {
+		border: 0;
+		margin: auto;
+		padding: 10px;
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	article li {
+		margin-bottom: 3px;
+	}
+}
+
