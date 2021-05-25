@@ -54,15 +54,3 @@
 		url(fonts/rokkitt-v11-latin-600.ttf) format('truetype'),
 		url(fonts/rokkitt-v11-latin-600.svg#Rokkitt) format('svg');
 }
-@font-face {
-	font-family: Rokkitt;
-	font-style: normal;
-	font-weight: 700;
-	src: url(fonts/rokkitt-v11-latin-700.eot);
-	src: local('Rokkitt Bold'), local('Rokkitt-Bold'),
-		url(fonts/rokkitt-v11-latin-700.eot?#iefix) format('embedded-opentype'),
-		url(fonts/rokkitt-v11-latin-700.woff2) format('woff2'),
-		url(fonts/rokkitt-v11-latin-700.woff) format('woff'),
-		url(fonts/rokkitt-v11-latin-700.ttf) format('truetype'),
-		url(fonts/rokkitt-v11-latin-700.svg#Rokkitt) format('svg');
-}
