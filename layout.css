@@ -78,6 +78,10 @@ h2 {
 	color: #444;
 }
 
+a {
+	color: #444;
+}
+
 .contactDetails ul li a, a[href^=tel] {
 	color: #444; 
 	text-decoration: none;
